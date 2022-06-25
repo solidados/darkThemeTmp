@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    bottom: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -10,7 +10,7 @@
 :root {
     --gap: .5em;
     --index: calc(1vw + 1vh);
-    --color-dark: #000;
+    --color-dark: black;
 }
 
 body {
@@ -23,7 +23,7 @@ body {
 
 .header {
     text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: .1em;
     font-size: calc(var(--index) * 2.8);
     position: absolute;
@@ -36,19 +36,17 @@ body {
 .header span {
     display: block;
     font-family: Helvetica, sans-serif;
-    font-weight: 100;
     font-size: calc(var(--index) * .75);
     opacity: .7;
     margin-top: 5px;
 }
 
-.gellery {
+.gallery {
     width: 30%;
     column-width: 2em;
     gap: var(--gap);
     transform: scale(8.2);
     will-change: transform;
-    /* use custom animation */
     transition: transform 1s cubic-bezier(.075, 1, .25, 1), opacity 1.5s;
 }
 
@@ -80,7 +78,7 @@ body {
 }
 
 
-/* ===== DARK-MODE SECTION ===== */
+/* ===== DARK MODE SECTION ===== */
 
 @media(prefers-color-scheme: dark) {
     body {
