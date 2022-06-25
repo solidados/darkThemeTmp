@@ -30,4 +30,13 @@ body {
     font-weight: 200;
     text-align: center;
     opacity: .85;
+    margin-top: .2em;
+}
+
+.header span {
+    display: block;
+    font-family: Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: calc(var(--index) * .75);
+    margin-top: 5px;
 }
