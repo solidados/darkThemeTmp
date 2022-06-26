@@ -2,7 +2,7 @@
 
 This Template is sensitive to the local General settings of Appearance which may affect the current page view. 
 
-## Who is this Template suitable for? 
+## Who this Template is suitable for? 
 
 - designers,  
 - photographers,  
