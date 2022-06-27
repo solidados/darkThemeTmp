@@ -1,3 +1,4 @@
+[Click here to see Template](https://solidados.github.io/darkThemeTmp/)
 # darkThemeTmp landing page
 
 This Template is sensitive to the local General settings of Appearance which may affect the current page view. 
